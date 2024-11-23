@@ -1,0 +1,33 @@
+body {
+    background-color: #69090977;
+    color: white;
+    font-family: "Cabin", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    background-color: #e8cf16f1;
+    color: white;
+    font-family: "Cabin", sans-serif;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 90%;
+}

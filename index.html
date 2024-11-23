@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link  href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Cabin:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <title>Em buscar do tesouro imaginário</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo0.png" alt="">
+            <p></p>Um grupo de amigos apaixonadoas por arqueologia encontraram um antigo mapa, onde menciona uma cidade lendaria cheia de tesouros imaginários protegidos por enigmas e perigos, e eles precisam da sua ajuda para saber por qual caminho devem prosseguir.
+            <button class="btn-proximo" data-proximo="1">Salvador</button>
+            <button class="btn-proximo" data-proximo="2">Fortaleza</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Eles começaram a busca por cima do morro do Senhor do Bonfim (em cachoeira), a onde encontraram uma caixa preta com imagens de aves tropicais.</p>
+            <button class="btn-proximo" data-proximo="3">continuar a busca</button>
+            <button class="btn-proximo" data-proximo="4"> voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p> Eles começaram a busca no alto do morro do Chapeu(em Aquiraz), onde encontraram uma imagem muito estranha de um peixe morto cheio de sangue</p>
+            <button class="btn-proximo" data-proximo="5">Comemorar</button>
+            <button class="btn-proximo" data-proximo="6">Investigar a imagem do peixe</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Atras da imagem estava escrito que o tesouro estava localizado no interio de São Paulo, a cidade esta 109KM de distancia da capital.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o interior de São Paulo</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <img src="mato.jpg" alt="imagem voltando para casa e desitindo da aventura">
+        <p>eles decidem que a aventura é grande demais e volta para casa, mas sempre se perguntam o que teria
+            encontrado.</p>
+        </div>
+        <div class="passo" id="passo-5">
+            <p>após a comemoração eles decidem voltar a buscar a cidade lendaria</p>
+            <button class="btn-proximo" data-proximo="7">continuar as buscas</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Eles continuam andando pela cachoeira atras de novos enigmas</p>
+            <button class="btn-proximo" data-proximo="8">Continuar a busca cansativa, atras de novas dicas</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Na dica falava que o proximo enigma se encontra num Parque chamado "Parque Portugal"</p>
+            <button class="btn-proximo" data-proximo="9">Seguir para Campinas</button>
+            <button class="btn-proximo" data-proximo="10">Seguir para Cajamar</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Numa arvore, eles observam que esta escrito que o tesouro esta proximo do interior de São Paulo</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o interior de São Paulo</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Em Campinas eles encontraram o Parque "Parque Portugal"</p>
+            <button class="btn-proximo" data-proximo="11">Explorar o Parque</button>
+        </div>
+        <div class="passo" id="passo-10">
+            <p>A cidade de Cajamar não tinha nenhum Parque com o nome "Portugal"</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e tentar a outra cidade </button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="taquas.png">
+            <p>Dentro do Parque eles encontraram um baú cheio de moedas de chocolate, e desde então decidiram estudar e preservar o Parque</p>
+        </div>
+        <div class="passo" id="passo-12">
+            <p>Retornando e escolhendo a cidade certa, eles finalmente encontram o Parque</p>
+            <button class="btn-proximo" data-proximo="11">Explorar o Parque</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
